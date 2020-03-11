@@ -27,8 +27,7 @@ class OSC1337:
 
 def show():
     """
-    Returns an OSC1337 object wrapping the render of figure or of the
-    currently active figure, if figure is None.
+    Return an OSC1337 object wrapping the currently active figure.
     """
     figure = plt.gcf()
 
