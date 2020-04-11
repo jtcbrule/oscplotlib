@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="oscplotlib-jtcbrule",
+    name="oscplotlib",
     version="0.1.0",
     author="Joshua Brule",
     author_email="jtcbrule@gmail.com",
